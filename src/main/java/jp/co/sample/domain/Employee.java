@@ -7,14 +7,14 @@ public class Employee {
 	private String name;
 	private String image;
 	private String gender;
-	private Timestamp hire_date;
-	private String mail_adress;
-	private String zip_code;
+	private Timestamp hireDate;
+	private String mailAdress;
+	private String zipCode;
 	private String address;
 	private String telephone;
 	private Integer salary;
 	private String characteristics;
-	private Integer dependents_count;
+	private Integer dependentsCount;
 
 	public Integer getId() {
 		return id;
@@ -48,28 +48,28 @@ public class Employee {
 		this.gender = gender;
 	}
 
-	public Timestamp getHire_date() {
-		return hire_date;
+	public Timestamp getHireDate() {
+		return hireDate;
 	}
 
-	public void setHire_date(Timestamp hire_date) {
-		this.hire_date = hire_date;
+	public void setHireDate(Timestamp hireDate) {
+		this.hireDate = hireDate;
 	}
 
-	public String getMail_adress() {
-		return mail_adress;
+	public String getMailAdress() {
+		return mailAdress;
 	}
 
-	public void setMail_adress(String mail_adress) {
-		this.mail_adress = mail_adress;
+	public void setMailAdress(String mailAdress) {
+		this.mailAdress = mailAdress;
 	}
 
-	public String getZip_code() {
-		return zip_code;
+	public String getZipCode() {
+		return zipCode;
 	}
 
-	public void setZip_code(String zip_code) {
-		this.zip_code = zip_code;
+	public void setZipCode(String zipCode) {
+		this.zipCode = zipCode;
 	}
 
 	public String getAddress() {
@@ -104,19 +104,19 @@ public class Employee {
 		this.characteristics = characteristics;
 	}
 
-	public Integer getDependents_count() {
-		return dependents_count;
+	public Integer getDependentsCount() {
+		return dependentsCount;
 	}
 
-	public void setDependents_count(Integer dependents_count) {
-		this.dependents_count = dependents_count;
+	public void setDependentsCount(Integer dependentsCount) {
+		this.dependentsCount = dependentsCount;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", image=" + image + ", gender=" + gender + ", hire_date="
-				+ hire_date + ", mail_adress=" + mail_adress + ", zip_code=" + zip_code + ", address=" + address
+		return "Employee [id=" + id + ", name=" + name + ", image=" + image + ", gender=" + gender + ", hireDate="
+				+ hireDate + ", mailAdress=" + mailAdress + ", zipCode=" + zipCode + ", address=" + address
 				+ ", telephone=" + telephone + ", salary=" + salary + ", characteristics=" + characteristics
-				+ ", dependents_count=" + dependents_count + "]";
+				+ ", dependentsCount=" + dependentsCount + "]";
 	}
 }
